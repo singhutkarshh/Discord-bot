@@ -2,8 +2,8 @@ const discord = require("discord.js");
 const fetch = require("node-fetch");
 const  mongoose  = require("mongoose");
 const filters = require("./model.js")
-const { URI, token } = require("./config.json");
 const ytdl = require("ytdl-core");
+
 
 mongoose
   .connect(URI, {
