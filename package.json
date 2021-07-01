@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Utkarsh",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "^5.13.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.9",
+    "ytdl-core": "^4.8.3"
+  }
+}
